@@ -1,0 +1,43 @@
+.container{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(blue, pink);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 5, 10;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input[type="number"], select{
+    width: 300px;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 15px;
+    border-color: azure;
+}
+
+button:hover {
+    transition: background-color 1s;
+    background-color: pink;
+}
+
+select{
+    text-align: center;
+    font-size: large;
+    margin-left: 5px;
+}
+h1{
+    color: #ff7474;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
